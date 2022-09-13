@@ -1,0 +1,34 @@
+{
+  "name": "mijnsport/dataride",
+  "description": "SDK for UCI DataRide API",
+  "homepage": "https://mijnsport.nl",
+  "license": "MIT",
+  "keywords": [
+    "uci",
+    "dataride",
+    "azure",
+    "active directory",
+    "b2c"
+  ],
+  "authors": [
+    {
+      "name": "Andries Reitsma",
+      "email": "andries@mijnsport.nl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0.1",
+  },
+  "autoload": {
+    "psr-4": {
+      "MySport\\DataRide\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
